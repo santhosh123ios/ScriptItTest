@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9F8ECCF22DD2A5C200FC1172 /* ScriptItSwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScriptItSwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8ECC7B2DD2425F00FC1172 /* ScriptItTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScriptItTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9F8ECC8D2DD2426000FC1172 /* Exceptions for "ScriptItTest" folder in "ScriptItTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9F8ECC7A2DD2425F00FC1172 /* ScriptItTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9F8ECCF42DD2A5C200FC1172 /* ScriptItSwiftUITest */ = {
+		9F8ECC7D2DD2425F00FC1172 /* ScriptItTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScriptItSwiftUITest;
+			exceptions = (
+				9F8ECC8D2DD2426000FC1172 /* Exceptions for "ScriptItTest" folder in "ScriptItTest" target */,
+			);
+			path = ScriptItTest;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9F8ECCEF2DD2A5C200FC1172 /* Frameworks */ = {
+		9F8ECC782DD2425F00FC1172 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F8ECCE92DD2A5C200FC1172 = {
+		9F8ECC722DD2425F00FC1172 = {
 			isa = PBXGroup;
 			children = (
-				9F8ECCF42DD2A5C200FC1172 /* ScriptItSwiftUITest */,
-				9F8ECCF32DD2A5C200FC1172 /* Products */,
+				9F8ECC7D2DD2425F00FC1172 /* ScriptItTest */,
+				9F8ECC7C2DD2425F00FC1172 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9F8ECCF32DD2A5C200FC1172 /* Products */ = {
+		9F8ECC7C2DD2425F00FC1172 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F8ECCF22DD2A5C200FC1172 /* ScriptItSwiftUITest.app */,
+				9F8ECC7B2DD2425F00FC1172 /* ScriptItTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F8ECCF12DD2A5C200FC1172 /* ScriptItSwiftUITest */ = {
+		9F8ECC7A2DD2425F00FC1172 /* ScriptItTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F8ECD002DD2A5C500FC1172 /* Build configuration list for PBXNativeTarget "ScriptItSwiftUITest" */;
+			buildConfigurationList = 9F8ECC8E2DD2426000FC1172 /* Build configuration list for PBXNativeTarget "ScriptItTest" */;
 			buildPhases = (
-				9F8ECCEE2DD2A5C200FC1172 /* Sources */,
-				9F8ECCEF2DD2A5C200FC1172 /* Frameworks */,
-				9F8ECCF02DD2A5C200FC1172 /* Resources */,
+				9F8ECC772DD2425F00FC1172 /* Sources */,
+				9F8ECC782DD2425F00FC1172 /* Frameworks */,
+				9F8ECC792DD2425F00FC1172 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9F8ECCF42DD2A5C200FC1172 /* ScriptItSwiftUITest */,
+				9F8ECC7D2DD2425F00FC1172 /* ScriptItTest */,
 			);
-			name = ScriptItSwiftUITest;
+			name = ScriptItTest;
 			packageProductDependencies = (
 			);
-			productName = ScriptItSwiftUITest;
-			productReference = 9F8ECCF22DD2A5C200FC1172 /* ScriptItSwiftUITest.app */;
+			productName = ScriptItTest;
+			productReference = 9F8ECC7B2DD2425F00FC1172 /* ScriptItTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9F8ECCEA2DD2A5C200FC1172 /* Project object */ = {
+		9F8ECC732DD2425F00FC1172 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					9F8ECCF12DD2A5C200FC1172 = {
+					9F8ECC7A2DD2425F00FC1172 = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 9F8ECCED2DD2A5C200FC1172 /* Build configuration list for PBXProject "ScriptItSwiftUITest" */;
+			buildConfigurationList = 9F8ECC762DD2425F00FC1172 /* Build configuration list for PBXProject "ScriptItTest" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 9F8ECCE92DD2A5C200FC1172;
+			mainGroup = 9F8ECC722DD2425F00FC1172;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9F8ECCF32DD2A5C200FC1172 /* Products */;
+			productRefGroup = 9F8ECC7C2DD2425F00FC1172 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F8ECCF12DD2A5C200FC1172 /* ScriptItSwiftUITest */,
+				9F8ECC7A2DD2425F00FC1172 /* ScriptItTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9F8ECCF02DD2A5C200FC1172 /* Resources */ = {
+		9F8ECC792DD2425F00FC1172 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9F8ECCEE2DD2A5C200FC1172 /* Sources */ = {
+		9F8ECC772DD2425F00FC1172 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +138,71 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9F8ECCFE2DD2A5C500FC1172 /* Debug */ = {
+		9F8ECC8F2DD2426000FC1172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DTA5NV7R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScriptItTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ts.ScriptItTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9F8ECC902DD2426000FC1172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DTA5NV7R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScriptItTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ts.ScriptItTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9F8ECC912DD2426000FC1172 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		9F8ECCFF2DD2A5C500FC1172 /* Release */ = {
+		9F8ECC922DD2426000FC1172 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,86 +321,28 @@
 			};
 			name = Release;
 		};
-		9F8ECD012DD2A5C500FC1172 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScriptItSwiftUITest/Preview Content\"";
-				DEVELOPMENT_TEAM = 8DTA5NV7R9;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ts.ScriptItSwiftUITest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9F8ECD022DD2A5C500FC1172 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScriptItSwiftUITest/Preview Content\"";
-				DEVELOPMENT_TEAM = 8DTA5NV7R9;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ts.ScriptItSwiftUITest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F8ECCED2DD2A5C200FC1172 /* Build configuration list for PBXProject "ScriptItSwiftUITest" */ = {
+		9F8ECC762DD2425F00FC1172 /* Build configuration list for PBXProject "ScriptItTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F8ECCFE2DD2A5C500FC1172 /* Debug */,
-				9F8ECCFF2DD2A5C500FC1172 /* Release */,
+				9F8ECC912DD2426000FC1172 /* Debug */,
+				9F8ECC922DD2426000FC1172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F8ECD002DD2A5C500FC1172 /* Build configuration list for PBXNativeTarget "ScriptItSwiftUITest" */ = {
+		9F8ECC8E2DD2426000FC1172 /* Build configuration list for PBXNativeTarget "ScriptItTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F8ECD012DD2A5C500FC1172 /* Debug */,
-				9F8ECD022DD2A5C500FC1172 /* Release */,
+				9F8ECC8F2DD2426000FC1172 /* Debug */,
+				9F8ECC902DD2426000FC1172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9F8ECCEA2DD2A5C200FC1172 /* Project object */;
+	rootObject = 9F8ECC732DD2425F00FC1172 /* Project object */;
 }
